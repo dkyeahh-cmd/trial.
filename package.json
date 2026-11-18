@@ -1,13 +1,15 @@
 {
-  "name": "my-discord-bot",
+  "name": "discord-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "indexx.js",
+  "description": "Discord voice streaming bot",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1",
+    "@discordjs/opus": "^0.10.0",
+    "express": "^4.19.2"
+  }
 }
